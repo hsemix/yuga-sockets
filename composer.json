@@ -1,0 +1,37 @@
+{
+    "name": "yuga/sockets",
+    "description": "The Yuga Framework Websockets Package.",
+    "keywords": ["framework", "Yuga", "Websockets", "Sockets"],
+    "license": "MIT",
+    "homepage": "https://yuga-framework.gitbook.io/documentation/websockets",
+    "authors": [
+        {
+            "name": "Hamidouh Semix",
+            "email": "semix.hamidouh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5|^8.0",
+        "yuga/framework": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuga\\Sockets\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "yuga": {
+            "providers": [
+                "Yuga\\Providers\\SocketsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
