@@ -1,1 +1,1 @@
-# Websockets Yuga Framework package
+# Websockets For Yuga Framework package
